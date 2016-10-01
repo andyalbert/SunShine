@@ -18,6 +18,9 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Cu
         this.context = context;
         this.arr = arr;
     }
+    public void updateData(String[] arr){
+        this.arr = arr;
+    }
 
     @Override
     public CustomViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

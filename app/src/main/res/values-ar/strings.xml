@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">SunShine</string>
+    <string name="app_name">سطوع الشمس</string>
     <string name="action_name" translatable="false">Refresh</string>
 </resources>
